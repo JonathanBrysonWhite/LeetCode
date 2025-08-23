@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LeetCode.Solutions
 {
-    internal partial class Solution
+    public partial class Solution
     {
         public TreeNode BuildTree106Naive(int[] inorder, int[] postorder)
         {
