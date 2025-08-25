@@ -1,10 +1,11 @@
 ﻿
-using LeetCode;
+using LeetCode.Solutions;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Numerics;
 
 Solution s = new Solution();
-int[] nums = [1, 2];
-s.Rotate(nums, 7);
+IList<IList<int>> test = [[2], [3, 4], [6, 5, 7], [4, 1, 8, 3]];
+s.MinimumTotalOptimized(test);
+
 
