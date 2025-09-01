@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace LeetCode.Solutions
 {
-    internal partial class Solution
+    public partial class Solution
     {
         public int LengthOfLIS(int[] nums)
         {
